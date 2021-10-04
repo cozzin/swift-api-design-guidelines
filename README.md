@@ -10,5 +10,11 @@ description: Swift API Design Guidelines 공식문서 기반으로 한국어로 
 
 작성중...
 
+#### 
 
+#### 🙋Contact
+
+* github: [https://github.com/cozzin](https://github.com/cozzin)
+* linkedIn: [https://www.linkedin.com/in/cozzin/](https://www.linkedin.com/in/cozzin/)
+* medium: [https://medium.com/@hongseongho](https://medium.com/@hongseongho)
 
