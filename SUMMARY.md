@@ -1,4 +1,4 @@
 # Table of contents
 
-* [swift-api-design-guidelines](README.md)
+* [Swift API Design Guidelines \(한국어\)](README.md)
 
