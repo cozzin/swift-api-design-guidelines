@@ -1,8 +1,4 @@
----
-description: Promote Clear Usage
----
-
-# 용도를 명확히 하기
+# 명확함 \(Promote Clear Usage\)
 
 ### **필요한 단어들을 모두 포함해주세요.** 
 
