@@ -8,10 +8,6 @@ description: Swift API Design Guidelines 공식문서 기반으로 한국어로 
 
 특별히 요즘 부스트캠프 리뷰어를 하면서 이 문서를 자주 언급하고 있어요. 원문을 보는 것이 제일 좋겠지만 입문자의 경우 영어로 설명된 것이 진입 장벽으로 느껴질 수 있고, 경우에 따라 추가 설명이 필요할 수도 있어서 한국어로 다시 설명하는 문서를 만들어보려 합니다. 도움이 되면 좋겠습니다 :\)
 
-작성중...
-
-#### 
-
 #### 🙋Contact
 
 * github: [https://github.com/cozzin](https://github.com/cozzin)
