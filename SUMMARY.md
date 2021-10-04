@@ -2,4 +2,5 @@
 
 * [Swift API Design Guidelines \(한국어\)](README.md)
 * [기초 \(Fundamentals\)](fundamentals.md)
+* [네이밍 \(Naming\)](naming.md)
 
