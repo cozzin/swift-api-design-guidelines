@@ -9,3 +9,7 @@
 * [유창함 \(Strive for Fluent Usage\)](naming-1/strive-for-fluent-usage.md)
 * [정확한 용어 사용\(Use Terminology Well\)](naming-1/use-terminology-well.md)
 
+## Conventions
+
+* [일반적인 컨벤션 \(General Conventions\)](conventions/general-conventions.md)
+
