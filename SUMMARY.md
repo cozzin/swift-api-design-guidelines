@@ -11,5 +11,6 @@
 
 ## Conventions
 
-* [일반적인 컨벤션 \(General Conventions\)](conventions/general-conventions.md)
+* [General Conventions](conventions/general-conventions.md)
+* [Parameters](conventions/parameters.md)
 
