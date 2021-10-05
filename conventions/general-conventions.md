@@ -33,9 +33,60 @@ var radarDetector: RadarScanner
 var enjoysScubaDiving = true
 ```
 
+### 기본 뜻이 같거나 구별되는 서로 구별되는 도메인에서 작동하는 Method는 base name을 동일하게 사용할 수 있습니다.
 
+#### Good
 
-### 
+예를들어, 아래 예시에서 기본적으로 같은 동작을 하기 때문에 같은 이름을 사용하는 것이 권장됩니다.
 
+```swift
+extension Shape {
+  /// Returns `true` iff `other` is within the area of `self`.
+  func contains(_ other: Point) -> Bool { ... }
 
+  /// Returns `true` iff `other` is entirely within the area of `self`.
+  func contains(_ other: Shape) -> Bool { ... }
+
+  /// Returns `true` iff `other` is within the area of `self`.
+  func contains(_ other: LineSegment) -> Bool { ... }
+}
+```
+
+geometric type과 collection type은 구별된 도메인이기 때문에, 같은 프로그램 안에서 다음과 같이 사용할 수 있습니다.
+
+```swift
+extension Collection where Element : Equatable {
+  /// Returns `true` iff `self` contains an element equal to
+  /// `sought`.
+  func contains(_ sought: Element) -> Bool { ... }
+}
+```
+
+#### Bad
+
+아래의 `index` method는 다른 의미를 갖고 있기 때문에, 다르게 네이밍 되어야 합니다.
+
+```swift
+extension Database {
+  /// Rebuilds the database's search index
+  func index() { ... }
+
+  /// Returns the `n`th row in the given table.
+  func index(_ n: Int, inTable: TableID) -> TableRow { ... }
+}
+```
+
+"overloading on return type"은 타입 추론의 유무에 따라 모호한 경우가 있어서 권장되지 않습니다.
+
+```swift
+extension Box {
+  /// Returns the `Int` stored in `self`, if any, and
+  /// `nil` otherwise.
+  func value() -> Int? { ... }
+
+  /// Returns the `String` stored in `self`, if any, and
+  /// `nil` otherwise.
+  func value() -> String? { ... }
+}
+```
 
