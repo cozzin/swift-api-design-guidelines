@@ -3,11 +3,11 @@
 * [Swift API Design Guidelines (한국어)](README.md)
 * [🧱 Fundamentals](fundamentals.md)
 
-## Naming <a href="naming-1" id="naming-1"></a>
+## Naming
 
-* [🙆 Promote Clear Usage](naming-1/promote-clear-usage.md)
-* [🗣 Strive for Fluent Usage](naming-1/strive-for-fluent-usage.md)
-* [✅ Use Terminology Well](naming-1/use-terminology-well.md)
+* [🙆 Promote Clear Usage](naming/promote-clear-usage.md)
+* [🗣 Strive for Fluent Usage](naming/strive-for-fluent-usage.md)
+* [✅ Use Terminology Well](naming/use-terminology-well.md)
 
 ## Conventions
 
