@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Swift API Design Guidelines](README.md)
+* [Swift API Design Guidelines (한국어)](README.md)
 * [🧱 Fundamentals](fundamentals.md)
 
 ## Naming <a href="naming-1" id="naming-1"></a>
@@ -11,7 +11,7 @@
 
 ## Conventions
 
-* [🏳🌈 General Conventions](conventions/general-conventions.md)
+* [🏳🌈 🏳🌈 General Conventions](conventions/general-conventions.md)
 * [📥 Parameters](conventions/parameters.md)
 * [🏷 Argument Labels](conventions/argument-labels.md)
 
