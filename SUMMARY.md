@@ -11,7 +11,7 @@
 
 ## Conventions
 
-* [🌈 General Conventions](conventions/general-conventions.md)
+* [🏳🌈 General Conventions](conventions/general-conventions.md)
 * [📥 Parameters](conventions/parameters.md)
 * [🏷 Argument Labels](conventions/argument-labels.md)
 

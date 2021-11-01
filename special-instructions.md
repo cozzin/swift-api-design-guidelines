@@ -1,6 +1,6 @@
 # 👽 Special Instructions
 
-## tuple members와 closure paramters에 Label을 붙이세요.
+## tuple members와 closure parameters에 Label을 붙이세요.
 
 이러한 이름들은 설명력이 있고, 문서화된 주석에서 언급될 수 있으며, 튜플 멤버에 대한 expressive access를 제공합니다.
 
