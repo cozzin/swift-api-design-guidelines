@@ -10,7 +10,7 @@ description: Swift API Design Guidelines 공식문서 기반으로 한국어로 
 
 특별히 얼마전 부스트캠프 리뷰어를 하면서 이 문서를 자주 언급했었어요. 원문을 보는 것이 제일 좋겠지만 입문자의 경우 영어로 설명된 것이 진입 장벽으로 느껴질 수 있고, 경우에 따라 추가 설명이 필요할 수도 있어서 한국어로 설명하는 문서를 작성했습니다. 도움이 되면 좋겠습니다 :)
 
-* 문서만 보고 이해하기 어려운 분들은 강의를 참고해주세요!! 👉 https://www.inflearn.com/course/읽기-좋은-스위프트?inst=a11a18a8
+* 문서만 보고 이해하기 어려운 분들은 강의를 참고해주세요!! 👉 [https://www.inflearn.com/course/읽기-좋은-스위프트?inst=a11a18a8](https://www.inflearn.com/course/%EC%9D%BD%EA%B8%B0-%EC%A2%8B%EC%9D%80-%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8?inst=a11a18a8)
 
 #### 🙋Contact
 
