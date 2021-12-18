@@ -92,7 +92,7 @@ protocol IteratorProtocol { ... }
 
 
 
-### **파라미터의 역할을 드러내기 위해 weak type information을** 보충하세요&#x20;
+### **파라미터의 역할을 명확히 하기 위해 불충분한 type 정보를** 보충하세요&#x20;
 
 (번역이 약간 어색한데, 예제를 보면 더 빨리 이해할 수 있을 것 같아요)
 
@@ -106,7 +106,7 @@ func add(_ observer: NSObject, for keyPath: String)
 grid.add(self, for: graphics) // 애매함
 ```
 
-명확하게 하려면, weakly typed parameter 앞에 그것의 역할을 명시하세요.
+명확하게 하려면, type 자체에서 많은 정보 얻을 수 없는 parameter 앞에 그것의 역할을 명시하세요.
 
 #### Good
 
