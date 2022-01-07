@@ -95,7 +95,8 @@ let rgbForeground = RGBColor(cmykForeground)
 
 
 
-### nonmutating인 Boolean method & properties는 receiver에 대한 주장으로 읽혀야 합니다
+### nonmutating인 Boolean 메소드와 프로퍼티는 호출되는 객체에 대한 주장문처럼 읽혀야 한다
+
 
 eg. `x.isEmpty` , `line1.intersects(line2)`&#x20;
 
