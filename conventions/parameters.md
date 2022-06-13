@@ -9,7 +9,7 @@ func move(from start: Point, to end: Point)
 - 파라미터 이름은 function 이나 method를 사용하는 곳에서 보이지 않지만, function 이나 method를 설명해주는 역할을 갖습니다.
 - 문서(주석)를 읽기에 쉬운 파라미터 이름을 사용하세요.
 
-### Good
+#### Good
 
 이런 이름들은 주석을 읽기 쉽게 해줍니다.
 (아래 예제에서 `predicate` 와 `subRange` `newElements` 에 해당하는 내용)
@@ -23,7 +23,7 @@ func filter(_ predicate: (Element) -> Bool) -> [Generator.Element]
 mutating func replaceRange(_ subRange: Range, with newElements: [E])
 ```
 
-### Bad
+#### Bad
 
 ```swift
 /// Return an `Array` containing the elements of `self`
@@ -53,7 +53,7 @@ let order = lastName.compare(royalFamilyName)
 - default parameters는 일반적인 method families를 사용하는 것보다 선호됩니다. (기본 파라미터 사용 > 기본 파라미터 안쓰고 method 여러개 나열 하는 것) 
 - 왜냐하면 API를 이해하려고 노력하는 사람들이 신경써야할 부분을 줄여주기 때문입니다. (아래 예제를 보면 조금 더 이해가 쉽습니다.)
 
-### Good
+#### Good
 
 ```swift
 extension String {
@@ -65,7 +65,7 @@ extension String {
 }
 ```
 
-### Bad
+#### Bad
 
 ```swift
 extension String {
