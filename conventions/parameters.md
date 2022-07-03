@@ -35,7 +35,7 @@ func filter(_ includedInResult: (Element) -> Bool) -> [Generator.Element]
 mutating func replaceRange(_ r: Range, with: [E])
 ```
 
-## 일반적인 사용을 단순화 할 수 있다면, defaulted paramters를 사용하세요
+## 일반적인 사용을 단순화 할 수 있다면, defaulted parameters를 사용하세요
 
 일반적으로 사용되는 파라미터가 default로 사용될 수 있습니다.
 
@@ -83,9 +83,9 @@ extension String {
 }
 ```
 
-method family의 모든 멤버들은 (위의 모든 method들) 개별적으로 주석을 달아서 문서화해줘야 합니다. 그래야 유저가 이해할 수 있습니다. 사용자가 method들 중에서 선택해야할 때, 사용자는 method들을 모두 이해해야 합니다. 가끔 예상치 못한 관계가 발생합니다. (예를들어, `foo(bar: nil)` 과 `foo()` 가 다른 동작을 하는 경우) 이런 경우 거의 동일한 주석 안에서 사소한 차이를 찾아내는 지루한 과정이 발생하게 됩니다. 하나의 method를 사용하고 default paramter를 제공하는 것은 매우 뛰어난 프로그래밍 경험을 제공합니다.
+method family의 모든 멤버들은 (위의 모든 method들) 개별적으로 주석을 달아서 문서화해줘야 합니다. 그래야 유저가 이해할 수 있습니다. 사용자가 method들 중에서 선택해야할 때, 사용자는 method들을 모두 이해해야 합니다. 가끔 예상치 못한 관계가 발생합니다. (예를들어, `foo(bar: nil)` 과 `foo()` 가 다른 동작을 하는 경우) 이런 경우 거의 동일한 주석 안에서 사소한 차이를 찾아내는 지루한 과정이 발생하게 됩니다. 하나의 method를 사용하고 default parameter를 제공하는 것은 매우 뛰어난 프로그래밍 경험을 제공합니다.
 
-## default parameter를 paramter list 끝 부분에 두는 것을 선호합니다.
+## default parameter를 parameter list 끝 부분에 두는 것을 선호합니다.
 
 - default값이 없는 parameter는 보통 메소드 의미에 더 필수적이고, 사용하는 쪽에서 안정적인 사용 패턴을 제공합니다.
 
