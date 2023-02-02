@@ -13,7 +13,7 @@ e.g. `min(number1, number2)`, `zip(sequence1, sequence2)`
 
 e.g. `Int64(someUInt32)`
 
-### 첫번째 argument는 항상 source of convesion 이어야 한다.
+### 첫번째 argument는 항상 source of conversion 이어야 한다.
 
 ```swift
 extension String {
